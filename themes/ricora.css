@@ -36,7 +36,7 @@ section.final h2 {
 
 section {
   padding: 50px 50px 50px 50px;
-  background-image: url(./common/ricora.svg);
+  background-image: url(https://raw.githubusercontent.com/RICORA/logo/main/ricora.svg);
   background-repeat: no-repeat;
   background-size: 250px;
   background-position: right 50px top 50px;
@@ -62,7 +62,7 @@ section.normal h4 {
 }
 
 section.final {
-  background-image: url(./common/ricora.svg);
+  background-image: url(https://raw.githubusercontent.com/RICORA/logo/main/ricora.svg);
   background-repeat: no-repeat;
   background-size: 600px;
   background-position-x: center;
