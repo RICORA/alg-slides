@@ -12,6 +12,8 @@ jobs:
 
       - name: Convert Markdown into HTML and PDF
         uses: KoharaKazuya/marp-cli-action@v2
+        with:
+          generate-image: png
 
       - name: copy README.md
         run: sudo cp README.md ./public/index.md
