@@ -13,6 +13,12 @@ jobs:
       - name: Convert Markdown into HTML and PDF
         uses: KoharaKazuya/marp-cli-action@v2
 
+      - name: copy README.md
+        run: cp README.md ./public/index.md
+
+      - name: copy _config.yml
+        run: cp _config.yml ./public/_config.yml
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
