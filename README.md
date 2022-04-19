@@ -1,15 +1,9 @@
 # RICORA Programming Team スライド資料
 
-## アルゴ式でプログラミング体験
+## アルゴ式でプログラミングを体験してみよう
 
-https://ricora.github.io/lecture-material/introduction-to-the-algo-method.html
+<a href="https://ricora.github.io/lecture-material/introduction-to-the-algo-method.html"><img src="https://ricora.github.io/lecture-material/introduction-to-the-algo-method.png" alt="アルゴ式でプログラミングを体験してみよう"></a>
 
-<iframe width="640" height="360" src="https://ricora.github.io/lecture-material/introduction-to-the-algo-method.html">
-</iframe>
+## コマンドライン入門講座
 
-## コマンドライン入門
-
-https://ricora.github.io/lecture-material/introduction-to-the-algo-method.html
-
-<iframe width="640" height="360" src="https://ricora.github.io/lecture-material/introduction-to-the-command-line">
-</iframe>
+<a href="https://ricora.github.io/lecture-material/introduction-to-the-command-line.html"><img src="https://ricora.github.io/lecture-material/introduction-to-the-command-line.png" alt="コマンドライン入門講座"></a>

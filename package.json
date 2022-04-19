@@ -2,6 +2,7 @@
     "marp": {
         "inputDir": "./slides",
         "output": "./public",
-        "themeSet": "./themes"
+        "themeSet": "./themes",
+        "image": "png"
     }
 }
