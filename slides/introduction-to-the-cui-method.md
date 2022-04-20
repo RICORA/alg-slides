@@ -34,14 +34,13 @@ size: 16:9
 ## Windows
 
 1. PowerShellを起動する
-   スタートメニュー -> Windows Powershell -> Windows Powershell
 2. 以下のコマンドを入力する(理科大Wi-Fi内で)
 ```
 ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 ```
 はじめの英語文に`yes`を入力して、自分のパスワードを入力してください。パスワードは見えませんが、入力されています。
 
-環境構築に詳しい人は、wsl2, Git Bash, Cygwinなどをインストールしてみよう。
+詳しい人は、wsl2, Git Bash, Cygwinなどをインストールしてみよう。
 
 ---
 <!--_class: nomal -->
