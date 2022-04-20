@@ -23,8 +23,8 @@ size: 16:9
 - 今回はCUIの使い方の基本を学びます📝
 
 - 本日使用するターミナルエミュレータ
-    * Mac -> Terminal
-    * Windows -> PowerShell
+  - Mac -> Terminal
+  - Windows -> PowerShell
 
 ---
 <!--_class: normal-->
@@ -43,8 +43,9 @@ ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 環境構築に詳しい人は、wsl2, Git Bash, Cygwinなどをインストールしてみよう。
 
 ---
+<!--_class: nomal -->
 
-# 準備
+# 準備 つづき
 
 ## MacOS
 
@@ -72,7 +73,6 @@ ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 
 ![height: 150](https://image.itmedia.co.jp/ait/articles/1604/08/nyumon_07-zu01.png) [画像の転載元](https://atmarkit.itmedia.co.jp/ait/articles/1604/08/news019.html)
 
-
 ---
 
 <!--_class: normal-->
@@ -99,7 +99,7 @@ ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 
 **ルートディレクトリ**からの*道筋*を**絶対パス**といいます
 
-例）
+例1
 
 ```sh
 /home/shinkan/document/test.txt
@@ -109,14 +109,14 @@ ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 
 <!--_class: normal -->
 
-# パスってなに？（つづき）
+# パスってなに？　つづき
 
 ## 相対パス
 
 **カレントディレクトリ**からの*道筋*を**相対パス**といいます
 
 
-例）今、ホームディレクトリにいるとして・・・
+例2 今、ホームディレクトリにいるとして・・・
 
 ```sh
 ./document/test.txt
@@ -143,7 +143,7 @@ ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 
 コマンドを実行するときに、*引数*というものをとってもらうことができます
 
-``` 
+``` sh
 $ (コマンド) (引数1) (引数2) (引数3) ...
 ```
 
@@ -160,9 +160,10 @@ $ (コマンド) (引数1) (引数2) (引数3) ...
 例3. `-h`、`--help`をつけるとヘルプ画面を表示してくれます
 
 例4. Cコンパイラ`gcc`でC言語ファイル`file.c`をコンパイルして、実行ファイル名を`ricora`にする 
-    ```
-    gcc file.c -o ricora
-    ```
+
+```sh
+gcc file.c -o ricora
+```
 
 この後のコマンドでも引数やオプションを使う場面は多く出てきます
 
@@ -174,7 +175,8 @@ $ (コマンド) (引数1) (引数2) (引数3) ...
 いまいるディレクトリの場所を表示してくれます
 
 こんな感じ：
-```
+
+```sh
 $ pwd
 /home/ricora/guidance/shinkan
 ```
@@ -189,11 +191,13 @@ $ pwd
 ここで引数が重要
 
 引数なし `cd`はホームディレクトリ
-```
+
+```sh
 $ cd
 $ pwd
 /home/ricora
 ```
+
 ---
 <!--_class: normal-->
 # cd (change directory) つづき
@@ -201,38 +205,41 @@ $ pwd
 引数つき`cd`はその場所があればそこへ
 - 相対パスの場合 
 
-  ```
-  $ cd ../shinkan
-  $ pwd
-  /home/shinkan
-  ```
+```sh
+$ cd ../shinkan
+$ pwd
+/home/shinkan
+```
   
   .(ドット)はいまいるディレクトリ、..(二重ドット)は一つ上のディレクトリという意味
 
 ---
 <!--_class: normal-->
+
 # cd (change directory) つづき
 
 - 絶対パスの場合
 
-  ```
-  $ cd /home/shinkan
-  $ pwd
-  /home/shinkan
-  ```
+```sh
+$ cd /home/shinkan
+$ pwd
+/home/shinkan
+```
+
 ---
 <!--_class: normal-->
 # ls (list)
 
 いまいるディレクトリにあるファイル一覧を表示してくれます
 
-```
+```sh
 $ ls
 a.out hi.txt shinkan.pdf
 ```
 
 引数に`-l`や`-a`をつけると詳しい出力結果が得られる
-```
+
+```sh
 $ ls -l
 
 drwxr-xr-x (なんとか) (なんとか) ./
@@ -246,11 +253,12 @@ drwxr-xr-x (なんとか) (なんとか) ../
 
 ディレクトリを作ります
 
-```
+```sh
 $ mkdir ricora-shinkan 
 $ ls
 ... ricora-shinkan ... 
 ```
+
 ---
 <!--_class: normal-->
 
@@ -258,7 +266,7 @@ $ ls
 
 本当はファイルの作成日時を変えるコマンドだけどファイルづくりもできる
 
-```
+```sh
 $ touch ricora-alg.hs
 $ ls
 ... ricora-alg.hs ...
@@ -273,13 +281,13 @@ $ ls
 
 ファイルを削除します
 
-```
+```sh
 $ rm ricora-shinkan-0410.txt
 ```
 
 ディレクトリを消すときは`-d`オプション、ディレクトリ内も削除するなら`-r`オプション
 
-```
+```sh
 $ rm -rd ricora-shinkan-0410
 ```
 
@@ -290,7 +298,7 @@ $ rm -rd ricora-shinkan-0410
 
 コマンドのマニュアルを見るコマンド
 
-```
+```sh
 man echo
 ```
 
@@ -308,6 +316,3 @@ man echo
 <!--_class: final-->
 
 # ご清聴ありがとうございました
-
-## h2h2h2h2h2h2h2h2
-## h2h2h2h2h2h2h2h2
