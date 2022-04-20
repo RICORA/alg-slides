@@ -43,7 +43,7 @@ ssh (学籍番号)@tusedls00.ed.tus.ac.jp
 詳しい人は、wsl2, Git Bash, Cygwinなどをインストールしてみよう。
 
 ---
-<!--_class: nomal -->
+<!--_class: normal -->
 
 # 準備 つづき
 
