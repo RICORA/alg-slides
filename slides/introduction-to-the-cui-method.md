@@ -348,15 +348,14 @@ man echo
 
 # やってみよう
 
-2. `python`を実行してみよう
+2. `gcc`のバージョンを確認しよう
 
-   バージョンを確認しましょう。
-   Ctrl + Dを同時に押して出ます
+   C言語のコンパイラ、`gcc`のバージョンを確認しましょう。
    
    出力例:
    ```
-   Python 3.8.10 (default ...)
-   [  ] on something
+   $ gcc --version
+   gcc (...) 9.x.x 
    ```
 ---
 <!--_class: normal-->
