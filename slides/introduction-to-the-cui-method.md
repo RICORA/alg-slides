@@ -445,8 +445,6 @@ man echo
 <!--_class: final-->
 
 # ご清聴ありがとうございました
-<<<<<<< Updated upstream
-=======
 
 ---
 <!--_class: top-->
