@@ -17,7 +17,7 @@ style: |
 
 <!--_class: top-->
 
-# git / GitHub 入門講座
+# Git / GitHub 入門講座
 
 ## RICORA Programming Team
 
@@ -26,22 +26,22 @@ style: |
 
 # はじめに
 
-- バージョンコントロールシステムであるgitの使い方を学ぼう
+- バージョンコントロールシステムであるGitの使い方を学ぼう
 
-- mdの使い方と二本立てで大変だと思いますが...
+- Markdownの使い方と二本立てで大変だと思いますが...
 
 ---
 
 <!--_class: normal-->
 
 
-# gitってなに？
+# Gitってなに？
 
->  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+>  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-- 要約すると「gitは早くて効率的なオープンソース分散型バージョンコントロールシステム」
+- 要約すると「Gitは早くて効率的なオープンソース分散型バージョンコントロールシステム」
 
-- それって実際どういうこと？
+- それって実際どういうこと？🤔
 
 ---
 <!--
@@ -52,9 +52,9 @@ _style: |
   }
 -->
 
-# gitが作られた背景
+# Gitが作られた背景
 
-- 最近人間味が出てきたこと`Linux`の製作者*Linus Torvalds*が作った
+- 最近人間味が出てきたことLinuxの製作者*Linus Torvalds*が作った
 
 - メールで送られてくるパッチを早くマージしてかつトラッキングするツールがほしかったらしい
 
@@ -67,20 +67,20 @@ _style: |
 # メリット
 
 - 早い
-   サーバーから拾ってくるときにそんなに時間がかからない
+  - サーバーから拾ってくるときにそんなに時間がかからない
 
 - ログを追える
-   このファイルはどこで変更されて...みたいなことがわかる
+  - このファイルはどこで変更されて...みたいなことがわかる
 
 - 複数人での開発に向く
-   各人が開発した成果を持ち寄りやすい 
+  - 各人が開発した成果を持ち寄りやすい
 
 - 管理するファイルを選べる
-   .DS_Storeとかを含まないようにできる
+  - `.DS_Store`とかを含まないようにできる
 
 ---
 <!--_class: normal-->
-# gitを用いた開発フロー
+# Gitを用いた開発フロー
 
 0. `clone` とか `fork` & ブランチ分ける
 
@@ -99,40 +99,40 @@ _style: |
 ---
 <!--_class: normal-->
 
-# clone & fork
+# Clone & Fork
 
 - `clone`はその名の通りクローン＝コピーをとってくる
 
-めっちゃ`clone`することが多い 基本構文は
-```
-$ git clone (repo url)
-```
+- めっちゃ`clone`することが多い 基本構文は
+  ```
+  $ git clone (repo url)
+  ```
 
 - `fork`はもとのリポジトリを自分のとこにコピー
 
-そこから自分で機能追加とかできる
+  - そこから自分で機能追加とかできる
 
 ---
 <!--_class: normal-->
 
-# clone & fork
+# Clone & Fork
 
 - これで開発の準備ができる
 
 - 例えば`log`を見てみる（あとでこれが何をするか説明）
-```
-$ git log -p
-```
-なんかログっぽいのが出る
+  ```
+  $ git log -p
+  ```
+  - なんかログっぽいのが出る
 
 ---
 <!--_class: normal-->
 
-# add & commit (大事！)
+# Add & Commit (大事！)
 
-- `add`=gitに管理を頼む 変更を加えたファイルを選ぶ
+- `add` : Gitに管理を頼む 変更を加えたファイルを選ぶ
 
-- `commit`=現在のスナップショットを保存 
+- `commit` : 現在のスナップショットを保存
 このスナップショットについてメッセージも書く(ログ)
 
 ![w:700](https://git-scm.com/book/en/v2/images/lifecycle.png) (©git-scm.com)
@@ -140,33 +140,33 @@ $ git log -p
 ---
 <!--_class: normal-->
 
-# add
+# Add
 
 - どのファイルを`git`に管理してもらうかを指定できる
 
 - 絶対に無視したいファイルもある → `.gitignore`で指定
 
-a.  ファイル指定で`add`（推奨）
-  ```
-  $ git add (something)
-  ```
+1. ファイル指定で`add`（推奨）
+    ```
+    $ git add (something)
+    ```
 
-b. ファイル全体を`add`（非推奨）
-  ```
-  $ git add .
-  ```
+2. ファイル全体を`add`（非推奨）
+    ```
+    $ git add .
+    ```
 ---
 <!--_class: normal-->
 
-# commit
+# Commit
 
 - 今の状態を保存するように頼む
 - コミットログを書く=なにを変更したのかを書く
 
-コマンドは
-```
-git commit -m (message)
-```
+- コマンドは
+  ```
+  git commit -m (message)
+  ```
 
 - 過去のコミットはこれで追う
   ```
@@ -176,24 +176,24 @@ git commit -m (message)
 ---
 <!--_class: normal-->
 
-# branch
+# Branch
 
-これだけだとdriveとかとあんまり変わらない 特色は*Branch*
+- これだけだとDriveとかとあんまり変わらない 特色は*Branch*
 
-### gitのブランチ
+### Gitのブランチ
 
- - ブランチ?
-    別の世界線 = 別の履歴のこと ヽ(*ﾟдﾟ)ノｶｲﾊﾞｰ
-    ブランチごとに`add`/`commit`する
-    履歴を分離させることで機能別に開発ができる
+- ブランチ?
+  - 別の世界線 = 別の履歴のこと ヽ(*ﾟдﾟ)ノｶｲﾊﾞｰ
+  - ブランチごとに`add`/`commit`する
+  - 履歴を分離させることで機能別に開発ができる
 
-機能ごとにBranchを分割 => master / mainに追加を繰り返す
-例: `docs/readme`とか
+- 機能ごとにBranchを分割 => master / mainに追加を繰り返す
+  - 例: `docs/readme`とか
 
 ---
 <!--_class: normal-->
 
-# branch
+# Branch
 
 - 切り替え
   ```
@@ -205,25 +205,23 @@ git commit -m (message)
   git switch -c (branch name)
   ```
 
-あとは`man git-branch`で検索
+- あとは`man git-branch`で検索
 
 ---
 <!--_class: normal-->
 # んにゃぴ...よくわかんないっす
 
-それはそう
+- それはそう
 
-- git
+- Git
+  - 様々なブランチにコミット → mainとかに取り込んでもらう
+    コミットの履歴がある
 
-   様々なブランチにコミット → mainとかに取り込んでもらう
-   コミットの履歴がある
+- Driveとか
+  - 適当にファイルを入れる → 何が変更されたのかわからない
+    規模がでかくなると削除とかでぐちゃぐちゃになりがち
 
-- driveとか
-   
-   適当にファイルを入れる → 何が変更されたのかわからない
-   規模がでかくなると削除とかでぐちゃぐちゃになりがち
-
-##### =>   git使ったほうがよさそう（と思ってほしい）
+### ➡ Git使ったほうがよさそう（と思ってほしい）
 
 ---
 <!--_class: normal-->
@@ -231,12 +229,12 @@ git commit -m (message)
 # リモートサーバーとかの話
 
 - もちろん当時からLinuxは複数人で開発されていた
-- `git`の威力はリモートサーバーがあるからこそ発揮される
+- Gitの威力はリモートサーバーがあるからこそ発揮される
 
 ---
 <!--_class: normal-->
 
-# clone
+# Clone
 
 - 再掲。リモートサーバーからリポジトリごと拾ってくる。
   ```
@@ -246,30 +244,32 @@ git commit -m (message)
 ---
 <!--_class: normal-->
 
-# push
+# Push
 
 - サーバーに変更分を通知
-- あっち側にもbranchがあるので指定が必要（最初だけ）
+- あっち側にもBranchがあるので指定が必要（最初だけ）
 
-a. 現在のbranchからpushしたことがない
-  ```
-  git push --set-upstream (remote branch name)
-  ```
-b. pushしたことがある
-  ```
-  git push
-  ```
+1. 現在のBranchからPushしたことがない
+   ```
+   git push --set-upstream (remote branch name)
+   ```
+
+2. Pushしたことがある
+   ```
+   git push
+   ```
+
 ---
 <!--_class: normal-->
-# fetch / pull
+# Fetch / Pull
 
 ここらへんは名前だけ一旦覚えておく
 
 - `fetch`
-  リモートサーバーのbranchのHEADを拾ってくる。
+  - リモートサーバーのBranchのHEADを拾ってくる。
 
 - `pull`
-  fetch & merge する。とりあえず更新するときに使うみたいなイメージ
+  - Fetch & Merge する。とりあえず更新するときに使うみたいなイメージ
 
 ---
 <!--_class: normal-->
@@ -289,3 +289,20 @@ b. pushしたことがある
 
 5. 0-4の繰り返し
 
+---
+<!--_class: normal-->
+# やってみよう
+
+- Git練習用のリモートリポジトリを用意しました
+  - [https://github.com/RICORA/sandbox](https://github.com/RICORA/sandbox)
+  - 何をやっても:ok:
+    - でも履歴全消しとかはやめてね
+
+- 座学だけだと意味不明だと思うので、とりあえず使いながら覚えよう
+- わからないことがあったら近くの人にきいてね
+
+---
+
+<!--_class: final-->
+
+# ご清聴ありがとうございました
