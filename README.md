@@ -8,6 +8,10 @@
 
 <a href="https://alg-slides.tus-ricora.com/cui.html"><img src="https://alg-slides.tus-ricora.com/cui.png" alt="コマンドライン入門講座"></a>
 
-## マークダウンの使い方
+## Markdownの使い方
 
-<a href="https://alg-slides.tus-ricora.com/md.html"><img src="https://alg-slides.tus-ricora.com/md.png" alt="マークダウンの使い方"></a>
+<a href="https://alg-slides.tus-ricora.com/md.html"><img src="https://alg-slides.tus-ricora.com/md.png" alt="Markdownの使い方"></a>
+
+## Git / GitHub 入門講座
+
+<a href="https://alg-slides.tus-ricora.com/git.html"><img src="https://alg-slides.tus-ricora.com/git.png" alt="Git / GitHub 入門講座"></a>
