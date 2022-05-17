@@ -221,6 +221,50 @@ int main() {
 ```
 ---
 
+<!--_class: normal-->
+
+# 演習
+## まずはじめにVSCode をインストールしよう
+詳しい手順は  [VSCode  について](https://alg-wiki.tus-ricora.com/vscode-tutorial/)を参照。
+分からない場合は聞いてください。
+
+次に、
+File → New Text File → Select a language → Markdown と入力
+
+---
+<!--_class: normal-->
+
+## Markdown を書いてみよう
+自分の自己紹介を書いてもらいます。
+
+#### 書いてほしいこと
+- 名前 or ハンネ
+- 学科、学年（表）
+- RICORA に入ってやりたいこと(コード記述モード)
+- 各種SNS もしくは何かしらのホームページ(リンクを埋め込む) 
+
+---
+<!--_class: normal-->
+## 自己紹介(h1)
+### ハンネ(h2)
+リコラ
+
+|学科|学年|
+| - | :-: |
+|情報科学科|$n$年|
+
+### やりたいこと(h2)
+```
+Web 開発
+```
+---
+<!--_class: normal-->
+### SNS/Webサイト(h2)
+[Twitter](https://twitter.com) [TUS](https://www.tus.ac.jp)
+
+
+---
+
 <!--_class: final-->
 
 # ご清聴ありがとうございました
