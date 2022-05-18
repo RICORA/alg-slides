@@ -356,7 +356,7 @@ https://alg-wiki.tus-ricora.com/vscode-tutorial/
 
 - VS Codeを開き、File → New Text File → Select a language → Markdown と入力
 
-- 試しに
+- 試しにこんな感じのことを書いてみる
 
    ```
    # example
@@ -364,10 +364,8 @@ https://alg-wiki.tus-ricora.com/vscode-tutorial/
    ## こんにちは
 
    はろー
-
    ```
-
-などと打ち込んでCtrl + Shift + P で表示されることを確認
+Ctrl + Shift + V (Windows) / Command + Shift + V (Mac)で確認
 
 ---
 <!--_class: normal-->
