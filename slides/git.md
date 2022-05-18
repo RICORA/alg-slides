@@ -99,6 +99,47 @@ _style: |
 ---
 <!--_class: normal-->
 
+# Gitの導入…の前に
+
+- パッケージマネージャーを入れよう
+  - 説明は割愛
+  - コマンド1つでアプリがインストールできてうれしいね
+- Windowsの人はChocolateyを入れる
+  - https://chocolatey.org/install
+- MacOSの人はHomebrewを入れる
+  - https://brew.sh/
+- 詳しい説明は次のページ以降で
+
+---
+<!--_class: normal-->
+
+# Chocolatey
+
+- https://chocolatey.org/install を見てね
+- **4. Get Your Scripts**の**3. Install/Deploy Chocolatey internally**にある`Set-ExecutionPolicy なんたらかんたら…`のコマンドをコピー
+- Windows+Xを押して、なんかメニューが出てくるのでWindows PowerShell (管理者)を選ぶ
+- さっきコピーしたやつをペーストして実行(Enter)
+- 終わったっぽいメッセージが出てきたら、一旦閉じてもう一度PowerShellを管理者で起動
+- `choco install git -y`を実行してGitを入れる
+
+---
+<!--_class: normal-->
+
+# Homebrew
+
+- ぴえん
+
+---
+<!--_class: normal-->
+
+# Gitが使えるか確認
+
+- `git`コマンドを実行して、オプション一覧が出てくることを確認。
+- 誰か詳しく書いて
+
+---
+<!--_class: normal-->
+
 # Clone & Fork
 
 - `clone`はその名の通りクローン＝コピーをとってくる
