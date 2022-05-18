@@ -91,6 +91,21 @@ $\longrightarrow$ Markdownを使おう！
 
 <!--_class: normal-->
 
+# VS Code
+
+- 現在一番無難であろうテキストエディタ
+- オープンソースでうれしい
+- Electron製で様々なOSで動作
+- 拡張機能が充実
+
+- 「VS Code」でググるか以下のリンクからダウンロード
+  - https://azure.microsoft.com/ja-jp/products/visual-studio-code/
+
+
+---
+
+<!--_class: normal-->
+
 # Markdown の記述方法
 
 実際にどういう書き方をするか見ていこう。
@@ -169,7 +184,7 @@ h5とh6はあんまり使わないかも。
 
 東京理科大学
 
-電子計算機  
+電子計算機
 研究会
 
 ```
@@ -379,7 +394,7 @@ Ctrl + Shift + V (Windows) / Command + Shift + V (Mac)で確認
 - 名前 or ハンドルネーム (h2)
 - 学科と学年 (表)
 - RICORA に入ってやりたいこと (ソースコードで)
-- 各種SNS もしくは何かしらのホームページ (リンクで) 
+- 各種SNS もしくは何かしらのホームページ (リンクで)
 
 ---
 <!--_class: normal-->
