@@ -32,7 +32,7 @@ size: 16:9
 
 - また、Pandoc や Marp、SATySFi などを用いれば高品質な PDF を生成することも可能。いろいろなツールを使うと様々なことができる。
 
-- 最近の技術系プラットフォームでは Markdown 記法をサポートしているものが多い（GitHub, Discord, Qiita など）。そのため、Markdown はプログラミングを学ぶ上で知っておいて損はない。
+- 最近の技術系プラットフォームでは Markdown 記法をサポートしているものが多い（GitHub, Discord, Qiita, Zennなど）。そのため、Markdown はプログラミングを学ぶ上で知っておいて損はない。
 
 ---
 
