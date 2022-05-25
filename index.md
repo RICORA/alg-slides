@@ -15,3 +15,7 @@
 ## Git / GitHub 入門講座
 
 <a href="https://alg-slides.tus-ricora.com/git.html"><img src="https://alg-slides.tus-ricora.com/git.png" alt="Git / GitHub 入門講座"></a>
+
+## パッケージマネージャーを使おう
+
+<a href="https://alg-slides.tus-ricora.com/pm.html"><img src="https://alg-slides.tus-ricora.com/pm.png" alt="パッケージマネージャーを使おう"></a>
