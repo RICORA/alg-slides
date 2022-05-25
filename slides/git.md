@@ -1,6 +1,5 @@
 ---
-marp: true
-theme: custom
+marp: true theme: custom
 header: 2022/05/18
 footer: © 2022 RICORA Programming Team
 paginate: true
@@ -282,6 +281,22 @@ _style: |
 
 ---
 <!--_class: normal-->
+# Pull Request
+
+さっきちょろっと出てきたあれ。既存のものに何か追加するときに使う
+
+### Pull Requestの出し方
+
+0. 先にブランチを`push`しておく
+1. githubのリポジトリの右上の`Pull Request`をクリック
+2. 左上のcompareから自分のブランチを選ぶ。baseはmainにする
+3. 変更したことの大枠を書いて、`Submit Pull Request`をクリック
+4. githubのリポジトリに戻って、`Pull Request`の欄に自分が書いたものがあるか確認
+
+これはあとで使います
+
+---
+<!--_class: normal-->
 # 全体の総括
 
 0. `clone` & ブランチ分ける`switch`
@@ -300,15 +315,29 @@ _style: |
 
 ---
 <!--_class: normal-->
+
+# 余談: Pull Requestの出し方
+
+- 実は出し方が2種類ある
+
+    - ブランチを使う方法
+
+       別のブランチに変更を加える
+       用例: 複数人での開発
+
+    - `fork`する方法
+
+       既存のリポジトリを複製して自分で変更を加える
+       用例: OSSとかの機能改善
+
+- 今回は上の方です・サークルでなんかやるときはブランチで
+
+---
+<!--_class: normal-->
+
 # やってみよう
 
-- Git練習用のリモートリポジトリを用意しました
-  - [https://github.com/RICORA/sandbox](https://github.com/RICORA/sandbox)
-  - 何をやっても:ok:
-    - でも履歴全消しとかはやめてね
-
-- 座学だけだと意味不明だと思うので、とりあえず使いながら覚えよう
-- わからないことがあったら近くの人にきいてね
+## じゃあ実際に触ろう
 
 ---
 
@@ -355,6 +384,34 @@ GitHubのアカウント名を教えてください！
 4. [ここ](https://github.com/settings/ssh)に公開鍵を登録
 
 [詳細はalg-wikiをみよう](https://alg-wiki.tus-ricora.com/ssh-tutorial/)
+
+---
+
+<!--_class: normal-->
+
+# やってみよう
+
+- 演習を作りました
+  - [https://github.com/RICORA/git-tutorial-2022.git](https://github.com/RICORA/git-tutorial-2022.git)
+  - README.mdにやることが書いてある
+  - たぶん破壊できないけど破壊しないでね
+
+- わかんなかったら聞いて🆗
+- スライドを開いて参照しよう
+
+---
+
+<!--_class: normal-->
+
+# やってみよう
+
+- Git練習用のリモートリポジトリを用意しました
+  - [https://github.com/RICORA/sandbox](https://github.com/RICORA/sandbox)
+  - こっちは何をやっても:ok:
+    - でも履歴全消しとかはやめてね
+
+- 座学だけだと意味不明だと思うので、とりあえず使いながら覚えよう
+- わからないことがあったら近くの人にきいてね
 
 ---
 
