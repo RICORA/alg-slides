@@ -30,7 +30,7 @@ size: 16:9
 
 - ソフトウェアのインストール・アップデート・アンインストールを簡単に行うことができるプログラム
 - とても便利
-  
+
 ---
 
 <!--_class: normal-->
@@ -101,7 +101,7 @@ Homebrewをインストールする前に導入する必要がある
 
 ---
 
-<!--=_class: normal-->
+<!--_class: normal-->
 
 # Homebrew
 
@@ -110,9 +110,6 @@ Homebrewをインストールする前に導入する必要がある
 - ⌘ + SpaceでSpotlight検索を呼び出し、`terminal`と打ち込む(Return)
 - さっきコピーしたやつをペーストして実行(Return)
 - 入力が求められたらすべて`Y`(Yes)を入力
-- `brew install python`を実行してPythonをインストールする
-
-(※ gitはxcode-command-line-toolsのインストール時に導入されています)
 
 ---
 
@@ -130,12 +127,13 @@ Homebrewをインストールする前に導入する必要がある
 # さっそく使ってみよう
 - 以下のパッケージ(アプリケーション)を入れてみよう
   - Git
+    - MacOSの人はxcode-command-line-toolsのインストール時に一緒に導入されています
   - Python
   - Hugo
-  - VS Code(まだ入れてなければ)
+  - VS Code
   - Node.js
 
-Node.js以外は今日使います！
+- Node.js以外は今日使います！
 
 ---
 
