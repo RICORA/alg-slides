@@ -96,6 +96,18 @@ _style: |
 
 ---
 <!--_class: normal-->
+# GitHubってなに？
+
+- Gitリポジトリのホスティングサービスの1つ
+  - Git ≠ GitHub
+- リポジトリ置き場としての機能だけではなく、チーム開発に便利な機能がたくさん
+  - 便利なのでリモートリポジトリにはGitHubが使われることが多い
+- ↓はGitHubのキャラクターのOctocat
+  ![w:180](https://avatars.githubusercontent.com/u/583231)
+
+
+---
+<!--_class: normal-->
 
 # ここでGitが使えるか確認
 
