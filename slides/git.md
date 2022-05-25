@@ -312,6 +312,41 @@ _style: |
 
 ---
 
+<!--_class: normal-->
+
+# 準備
+
+## 環境構築
+
+[パッケージマネージャーのスライドを参照](https://alg-slides.tus-ricora.com/pm.html)
+
+---
+
+<!--_class: normal-->
+
+# 準備
+
+## GitHubアカウントの作成
+
+[ここから登録](https://github.com/join)
+
+## sshキーの登録
+
+[alg-wikiを読もう](https://alg-wiki.tus-ricora.com/ssh-tutorial/)
+
+---
+
+<!--_class: normal-->
+# 準備
+
+## RICORA Organizationへの招待
+
+GitHubのアカウント名を教えてください！
+
+（既存部員は[ここから](https://github.com/orgs/RICORA/people)新入部員をMemberで招待)
+
+---
+
 <!--_class: final-->
 
 # ご清聴ありがとうございました
