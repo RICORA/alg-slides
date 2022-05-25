@@ -18,8 +18,9 @@ size: 16:9
 
 # はじめに
 
-- 挨拶文がうだうだ
-- 宗教上の理由で強い拘りがある人は好きにやってください
+- お集まりいただきありがとうございます🙇
+- 開発で割と大事なパッケージマネージャーの話をします
+- 宗教上の理由で強い拘りがある人は好きにやってください🫠
 
 ---
 
@@ -30,8 +31,6 @@ size: 16:9
 - ソフトウェアのインストール・アップデート・アンインストールを簡単に行うことができるプログラム
 - とても便利
   
-
-
 ---
 
 <!--_class: normal-->
@@ -113,18 +112,16 @@ Homebrewをインストールする前に導入する必要がある
 - 入力が求められたらすべて`Y`(Yes)を入力
 - `brew install python`を実行してPythonをインストールする
 
-(※ Apple版のgitはxcode-comannd-line-toolsのインストール時に導入されています)
+(※ gitはxcode-command-line-toolsのインストール時に導入されています)
 
 ---
 
 <!--_class: normal-->
 
 # パッケージマネージャーの導入
-- Wikiに詳しく書いてあるのでこっちを参考にして導入してね
-  - Windows
-    - [https://alg-wiki.tus-ricora.com/あとで](https://alg-wiki.tus-ricora.com/)
-  - MacOS
-    - [https://alg-wiki.tus-ricora.com/書かれる](https://alg-wiki.tus-ricora.com/)
+
+- Wikiにも書いてあるので参考にしてね
+- Wikiのリンク: [https://alg-wiki.tus-ricora.com](https://alg-wiki.tus-ricora.com)
 
 ---
 
@@ -134,9 +131,11 @@ Homebrewをインストールする前に導入する必要がある
 - 以下のパッケージ(アプリケーション)を入れてみよう
   - Git
   - Python
-  - Node.js
   - Hugo
   - VS Code(まだ入れてなければ)
+  - Node.js
+
+Node.js以外は今日使います！
 
 ---
 
