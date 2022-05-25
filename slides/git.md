@@ -24,12 +24,10 @@ style: |
 ---
 <!--_class: normal-->
 
-# はじめに
+# 今日やること
 
-- バージョンコントロールシステムであるGitの使い方を学ぼう
-
-- Markdownの使い方と二本立てで大変だと思いますが...
-
+- バージョンコントロールシステムであるGitの使い方を学ぶ
+- GitリポジトリのホスティングサービスであるGitHubを使ってみる
 ---
 
 <!--_class: normal-->
@@ -95,6 +93,18 @@ _style: |
 4. `merge` 機能追加
 
 5. 0-4の繰り返し
+
+---
+<!--_class: normal-->
+# GitHubってなに？
+
+- Gitリポジトリのホスティングサービスの1つ
+  - Git ≠ GitHub
+- リポジトリ置き場としての機能だけではなく、チーム開発に便利な機能がたくさん
+  - 便利なのでリモートリポジトリにはGitHubが使われることが多い
+- ↓はGitHubのキャラクターのOctocat
+  ![w:180](https://avatars.githubusercontent.com/u/583231)
+
 
 ---
 <!--_class: normal-->
@@ -346,47 +356,44 @@ _style: |
 
 <!--_class: normal-->
 
-# 準備
-
-## 環境構築
+# Gitの前に
 
 * パッケージマネージャーを導入する
-* WindowsユーザーはChocolatey、MacユーザーはHomebrew
 * git, python, hugoなどのCLIツールをパッケージマネージャー経由でインストールする
+* WindowsはChocolatey
+  * [https://alg-slides.tus-ricora.com/pm.html#6](https://alg-slides.tus-ricora.com/pm.html#6)
 
-[Windowsユーザーはこちら](https://alg-slides.tus-ricora.com/pm.html#6)
-
-[Macユーザーはこちら](https://alg-slides.tus-ricora.com/pm.html#8)
-
----
-
-<!--_class: normal-->
-
-# 準備
-
-## GitHubアカウントの作成
-
-[ここから登録](https://github.com/join)
-
-## RICORA Organizationへの招待
-
-GitHubのアカウント名を教えてください！
-
-（部員は[ここから](https://github.com/orgs/RICORA/people)新入部員をMemberで招待)
+* MacOSはHomebrew
+  * [https://alg-slides.tus-ricora.com/pm.html#8](https://alg-slides.tus-ricora.com/pm.html#8)
 
 ---
 
 <!--_class: normal-->
-# 準備
 
-## GitHub上にsshキーを登録
+# GitHubの準備
+
+- GitHubアカウントの作成
+  - ない人はここから
+    - [https://github.com/join](https://github.com/join)
+
+- RICORA Organizationへの招待
+  - 招待するのでGitHubのアカウント名を教えてください
+  - 部員は[ここから](https://github.com/orgs/RICORA/people)新入部員を**Member**で招待
+
+---
+
+<!--_class: normal-->
+# GitHubの準備
+
+- GitHubにSSH公開鍵を登録しよう
 
 1. ホームディレクトリで`ssh-keygen -t ed25519`を実行
 2. なにも入力せずEnter
 3. 公開鍵`~/.ssh/id_ed25519.pub`の内容をコピー
-4. [ここ](https://github.com/settings/ssh)に公開鍵を登録
+4. [https://github.com/settings/ssh](https://github.com/settings/ssh)に公開鍵を登録
 
-[詳細はalg-wikiをみよう](https://alg-wiki.tus-ricora.com/ssh-tutorial/)
+- 詳細はalg-wikiに書いたのでみてね
+  - https://alg-wiki.tus-ricora.com/ssh-tutorial/
 
 ---
 
@@ -406,15 +413,14 @@ GitHubのアカウント名を教えてください！
 
 <!--_class: normal-->
 
-# やってみよう
+# 告知
 
 - Git練習用のリモートリポジトリを用意しました
   - [https://github.com/RICORA/sandbox](https://github.com/RICORA/sandbox)
   - こっちは何をやっても:ok:
     - でも履歴全消しとかはやめてね
-
+  - 後日練習したいときに使ってね
 - 座学だけだと意味不明だと思うので、とりあえず使いながら覚えよう
-- わからないことがあったら近くの人にきいてね
 
 ---
 
