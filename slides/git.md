@@ -312,6 +312,52 @@ _style: |
 
 ---
 
+<!--_class: normal-->
+
+# 準備
+
+## 環境構築
+
+* パッケージマネージャーを導入する
+* WindowsユーザーはChocolatey、MacユーザーはHomebrew
+* git, python, hugoなどのCLIツールをパッケージマネージャー経由でインストールする
+
+[Windowsユーザーはこちら](https://alg-slides.tus-ricora.com/pm.html#6)
+
+[Macユーザーはこちら](https://alg-slides.tus-ricora.com/pm.html#8)
+
+---
+
+<!--_class: normal-->
+
+# 準備
+
+## GitHubアカウントの作成
+
+[ここから登録](https://github.com/join)
+
+## RICORA Organizationへの招待
+
+GitHubのアカウント名を教えてください！
+
+（部員は[ここから](https://github.com/orgs/RICORA/people)新入部員をMemberで招待)
+
+---
+
+<!--_class: normal-->
+# 準備
+
+## GitHub上にsshキーを登録
+
+1. ホームディレクトリで`ssh-keygen -t ed25519`を実行
+2. なにも入力せずEnter
+3. 公開鍵`~/.ssh/id_ed25519.pub`の内容をコピー
+4. [ここ](https://github.com/settings/ssh)に公開鍵を登録
+
+[詳細はalg-wikiをみよう](https://alg-wiki.tus-ricora.com/ssh-tutorial/)
+
+---
+
 <!--_class: final-->
 
 # ご清聴ありがとうございました
