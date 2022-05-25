@@ -77,15 +77,38 @@ size: 16:9
 
 - **Homebrew**
   - **今回はこれを使うよ**
-  - あ
-
+  - というかこれ以外聞いたことがない
+  - GUI appもCUI appも両方管理できる
+  - AppStore以外から入手したappをCUIで管理できる
+  - 各appは/usr/local/Cellerにインストールされ、/usr/local/binにシンボリックリンクが貼られる
+    - **環境が汚れない**
 ---
 <!--_class: normal-->
 
+# Xcode-Command-line-Tools
+
+gitやgccなどのコマンドラインツールを使えるようにするためのツール
+
+Homebrewをインストールする前に導入する必要がある
+
+- ⌘ + SpaceでSpotlight検索を呼び出し、`terminal`と打ち込む(Return)
+- `xcode-select --install`と打ち込む(Return)
+- 入力が求められたらすべて`Y`(Yes)を入力
+
+---
+
+<!--=_class: normal-->
+
 # Homebrew
 
-- ぴえん
-- https://brew.sh/
+- https://brew.sh/index_ja を見てね
+- **インストール** の下にある`/bin/bash -c "$(curl -うんたらかんたら_`のコマンドをコピー
+- ⌘ + SpaceでSpotlight検索を呼び出し、`terminal`と打ち込む(Return)
+- さっきコピーしたやつをペーストして実行(Return)
+- 入力が求められたらすべて`Y`(Yes)を入力
+- `brew install python`を実行してPythonをインストールする
+
+(※ Apple版のgitはxcode-comannd-line-toolsのインストール時に導入されています)
 
 ---
 
