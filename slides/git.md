@@ -318,11 +318,9 @@ _style: |
 
 ## 環境構築
 
-* パッケージマネージャーを導入したのちに、CLIツールをインストールする。
-
+* パッケージマネージャーを導入する
 * WindowsユーザーはChocolatey、MacユーザーはHomebrew
-
-詳細はリンク先のスライド参照
+* git, python, hugoなどのCLIツールをパッケージマネージャー経由でインストールする
 
 [Windowsユーザーはこちら](https://alg-slides.tus-ricora.com/pm.html#6)
 
