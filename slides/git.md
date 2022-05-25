@@ -1,5 +1,6 @@
 ---
-marp: true theme: custom
+marp: true
+theme: custom
 header: 2022/05/18
 footer: © 2022 RICORA Programming Team
 paginate: true
@@ -293,8 +294,6 @@ _style: |
 3. 変更したことの大枠を書いて、`Submit Pull Request`をクリック
 4. githubのリポジトリに戻って、`Pull Request`の欄に自分が書いたものがあるか確認
 
-これはあとで使います
-
 ---
 <!--_class: normal-->
 # 全体の総括
@@ -337,7 +336,11 @@ _style: |
 
 # やってみよう
 
-## じゃあ実際に触ろう
+実際に触ってみよう😉
+
+やること
+1. 環境構築して`git`を使えるようにする
+2. 演習とかで`git`に触れてみる
 
 ---
 
