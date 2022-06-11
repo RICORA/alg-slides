@@ -349,13 +349,12 @@ _style: |
 
 # Gitの前に
 
-* パッケージマネージャーを導入する
-* git, python, hugoなどのCLIツールをパッケージマネージャー経由でインストールする
-* WindowsはChocolatey
-  * [https://alg-slides.tus-ricora.com/pm.html#6](https://alg-slides.tus-ricora.com/pm.html#6)
-
-* MacOSはHomebrew
-  * [https://alg-slides.tus-ricora.com/pm.html#8](https://alg-slides.tus-ricora.com/pm.html#8)
+- パッケージマネージャーを導入する
+- git, python, hugoなどのCLIツールをパッケージマネージャー経由でインストールする
+- WindowsはChocolatey
+  - [https://alg-slides.tus-ricora.com/pm.html#6](https://alg-slides.tus-ricora.com/pm.html#6)
+- MacOSはHomebrew
+  - [https://alg-slides.tus-ricora.com/pm.html#8](https://alg-slides.tus-ricora.com/pm.html#8)
 
 ---
 
