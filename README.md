@@ -19,3 +19,7 @@
 ## パッケージマネージャーを使おう
 
 <a href="https://alg-slides.tus-ricora.com/pm.html"><img src="https://alg-slides.tus-ricora.com/pm.png" alt="パッケージマネージャーを使おう"></a>
+
+## Scrap型の技術記事を書こう
+
+<a href="https://alg-slides.tus-ricora.com/scrap.html"><img src="https://alg-slides.tus-ricora.com/scrap.png" alt="Scrap型の技術記事を書こう"></a>
