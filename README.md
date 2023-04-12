@@ -23,3 +23,7 @@
 ## Scrap型の技術記事を書こう
 
 <a href="https://alg-slides.tus-ricora.com/scrap.html"><img src="https://alg-slides.tus-ricora.com/scrap.png" alt="Scrap型の技術記事を書こう"></a>
+
+## RICORA Programming Team 新歓説明会
+
+<a href="https://alg-slides.tus-ricora.com/welcome.html"><img src="https://alg-slides.tus-ricora.com/welcome.png" alt="RICORA Programming Team 新歓説明会"></a>
