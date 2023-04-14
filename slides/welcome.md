@@ -8,8 +8,8 @@ size: 16:9
 ---
 <!--_class: top-->
 
-# RICORA Programming Team 新歓説明会
-東京理科大学電子計算機研究会 言語班
+# RICORA Programming Team<br>新歓説明会
+## RICORA Programming Team
 
 ---
 <!--_class: normal-->
@@ -46,23 +46,24 @@ WebサイトにLT会のスライドを一部公開してます。
 ---
 <!--_class: normal-->
 
-# やるかもしれないこと
+# 今後の活動について
 
+- ワークショップ
+  - 新入生向けにワークショップを開催予定です。
 - Advent Calendar
   - アドベントカレンダーをやります。
 - ICPC
   - 有志で大学対抗プロコンのICPCに出場します。
 - ISUCON
   - 有志でWebシステムの高速化コンテストのISUCONに出場します。
-- JPHACKS
-  - 有志で学生ハッカソンのJPHACKSに出場します。
 
 ---
 <!--_class: normal-->
 
-# やるかもしれないこと
+# 今後の活動について
 
-
+- JPHACKS
+  - 有志で学生ハッカソンのJPHACKSに出場します。
 - 技術書典に出展
 - なにかのテーマについての輪講
 - 数値計算、機械学習など
@@ -88,13 +89,13 @@ WebサイトにLT会のスライドを一部公開してます。
 - 入り方
   - 明日の新歓ブースに来る。
   - 水曜日の活動に来る。
-  - 新歓用のLINEグループチャットやDiscordに入る。
-  - RICORAのTwitterにDMを送る。
+  - 新歓用のDiscordに入る。
 - 連絡や交流はDiscordで行います。
 - 暇そうな部員に声をかけて、Discordに入れてもらいましょう。
 - 自分でやりたいことがあったら積極的に発言しましょう。
+- Twitter(@ricora_alg)を要チェック！
 
 ---
 <!--_class: final-->
 
-# おわり
+# ご清聴ありがとうございました
