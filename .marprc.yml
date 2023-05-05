@@ -1,0 +1,4 @@
+inputDir: ./slides
+output: ./public
+themeSet: ./themes
+image: png
