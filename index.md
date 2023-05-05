@@ -1,29 +1,32 @@
 # RICORA Programming Team スライド資料
 
-## アルゴ式でプログラミングを体験してみよう
+<!-- スライドは更新日時が新しいものを上にしてください。 -->
 
-<a href="https://alg-slides.tus-ricora.com/algo-method.html"><img src="https://alg-slides.tus-ricora.com/algo-method.png" alt="アルゴ式でプログラミングを体験してみよう"></a>
+## 📌 サークル説明
+<!-- このスライドのみ常に一番上にする -->
 
-## コマンドライン入門講座
-
-<a href="https://alg-slides.tus-ricora.com/cui.html"><img src="https://alg-slides.tus-ricora.com/cui.png" alt="コマンドライン入門講座"></a>
-
-## Markdownの使い方
-
-<a href="https://alg-slides.tus-ricora.com/md.html"><img src="https://alg-slides.tus-ricora.com/md.png" alt="Markdownの使い方"></a>
-
-## Git / GitHub 入門講座
-
-<a href="https://alg-slides.tus-ricora.com/git.html"><img src="https://alg-slides.tus-ricora.com/git.png" alt="Git / GitHub 入門講座"></a>
-
-## パッケージマネージャーを使おう
-
-<a href="https://alg-slides.tus-ricora.com/pm.html"><img src="https://alg-slides.tus-ricora.com/pm.png" alt="パッケージマネージャーを使おう"></a>
+<a href="https://alg-slides.tus-ricora.com/welcome.html"><img src="https://alg-slides.tus-ricora.com/welcome.png" alt="サークル説明"></a>
 
 ## Scrap型の技術記事を書こう
 
 <a href="https://alg-slides.tus-ricora.com/scrap.html"><img src="https://alg-slides.tus-ricora.com/scrap.png" alt="Scrap型の技術記事を書こう"></a>
 
-## RICORA Programming Team 新歓説明会
+## パッケージマネージャーを使おう
 
-<a href="https://alg-slides.tus-ricora.com/welcome.html"><img src="https://alg-slides.tus-ricora.com/welcome.png" alt="RICORA Programming Team 新歓説明会"></a>
+<a href="https://alg-slides.tus-ricora.com/pm.html"><img src="https://alg-slides.tus-ricora.com/pm.png" alt="パッケージマネージャーを使おう"></a>
+
+## Git / GitHub 入門講座
+
+<a href="https://alg-slides.tus-ricora.com/git.html"><img src="https://alg-slides.tus-ricora.com/git.png" alt="Git / GitHub 入門講座"></a>
+
+## Markdownの使い方
+
+<a href="https://alg-slides.tus-ricora.com/md.html"><img src="https://alg-slides.tus-ricora.com/md.png" alt="Markdownの使い方"></a>
+
+## コマンドライン入門講座
+
+<a href="https://alg-slides.tus-ricora.com/cui.html"><img src="https://alg-slides.tus-ricora.com/cui.png" alt="コマンドライン入門講座"></a>
+
+## アルゴ式でプログラミングを体験してみよう
+
+<a href="https://alg-slides.tus-ricora.com/algo-method.html"><img src="https://alg-slides.tus-ricora.com/algo-method.png" alt="アルゴ式でプログラミングを体験してみよう"></a>
