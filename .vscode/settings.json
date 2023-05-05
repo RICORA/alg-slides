@@ -1,0 +1,6 @@
+{
+  "markdown.marp.themes": [
+    "./themes/ricora.css"
+  ],
+  "markdown.marp.enableHtml": true
+}
