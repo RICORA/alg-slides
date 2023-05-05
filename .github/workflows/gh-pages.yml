@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Convert Markdown into HTML and PDF
+        uses: KoharaKazuya/marp-cli-action@v2
+        with:
+          generate-image: png
+
+      - name: copy README.md
+        run: sudo cp README.md ./public/index.md
+
+      - name: copy _config.yml
+        run: sudo cp _config.yml ./public/_config.yml
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: alg-slides.tus-ricora.com
+          enable_jekyll: true
